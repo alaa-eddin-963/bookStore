@@ -1,0 +1,39 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Ignore EF Core migrations cache
+Migrations/
+
+# Ignore logs
+*.log
+
+# Ignore Visual Studio junk
+.vscode/
+.vs/
+
+# Ignore publish artifacts
+publish/
+*.db
+
+
+# Ignore environment
+.env
+
+# Ignore generated files
+*.generated.cs
+
+# OS-specific files
+.DS_Store
+Thumbs.db
